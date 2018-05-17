@@ -1,10 +1,11 @@
 # SO-myshell
-## [ESP] Práctica 2 de Sistemas Operativos. En esta práctica se abordará el problema de implementar un programa que actúe como intérprete de mandatos. El minishell a implementar debe interpretar y ejecutar mandatos leyéndolos de la entrada estándar.
+<b>[ESP]</b> Práctica 2 de Sistemas Operativos. En esta práctica se abordará el problema de implementar un programa que actúe como intérprete de mandatos. El minishell a implementar debe interpretar y ejecutar mandatos leyéndolos de la entrada estándar.
 
-## [EN] Second project of Operating Systems. The implemented minishell pretends to works as the original.
+<b>[EN]</b> Second project of Operating Systems. The implemented minishell pretends to works as the original.
 
 ## Compilación // How to compile this proyect: 
 
+<b>[ESP]</b>
 Usamos Wall y Wextra como opciones de gcc para filtar y habilitar los warnings de todo tipo.
 <b>Wall: </b>Habilita todos los avisos de construcciones que el usuario considere cuestionables, y que son faciles de evitar, modificar o prevenir.
 
@@ -13,7 +14,8 @@ Usamos Wall y Wextra como opciones de gcc para filtar y habilitar los warnings d
 $ make
 gcc -Wall -Wextra myshell.c libparsher_64.a -o myshell 
 ```
-
+-------------------------------
+<b>[EN]</b>
 We use Wall and Wextra as options to request or suppress warnings.
 <b>Wall: </b>This enables all the warnings about constructions that some users consider questionable, and that are easy to avoid (or modify to prevent the warning), even in conjunction with macros.
 
@@ -90,6 +92,6 @@ The rest of files <i>libparsher_64.a</i> are used to provide our shell the readi
   todos los objetivos simultáneamente.
   
 ## Requisitos// Requirements 
-Estos comandos están diseñados para ejecutarse en un sistema operativo UNIX (Con compilador GCC). <b> Cualquier distribucion de Mac OSX o Linux </b> 
+<b>[ESP]</b>Estos comandos están diseñados para ejecutarse en un sistema operativo UNIX (Con compilador GCC). <b> Cualquier distribucion de Mac OSX o Linux </b> 
 
-These commands are designed to work in a UNIX (GCC Compiler needed). <b>Max OSX or Any Linux distribution</b>
+<b>[EN]</b>These commands are designed to work in a UNIX (GCC Compiler needed). <b>Max OSX or Any Linux distribution</b>
