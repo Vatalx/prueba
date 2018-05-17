@@ -5,7 +5,9 @@ This repository is a small collection of several Operating System commands, some
 ## How to compile this proyect:
 
 We use Wall and Wextra as options to request or suppress warnings
-<b>Wall: </b>This enables all the warnings about constructions that some users consider questionable, and that are easy to avoid (or modify to prevent the warning), even in conjunction with macros
+
+<b>Wall: </b>This enables all the warnings about constructions that some users consider questionable, and that are easy to avoid (or modify to prevent the warning), even in conjunction with macros.
+
 <b> Wextra: </b>This enables some extra warning flags that are not enabled by -Wall. (This option used to be called -W. The older name is still supported, but the newer name is more descriptive.)
 ```shell
 $ make
@@ -14,11 +16,6 @@ gcc -Wall -Wextra -o test test.c
 
 ## What is in the repository?
 
-
-```shell
-$ make clean 
-rm -f mydiff myhead myls
-```
 
 ### 1. Tail:
 File that implements a function which prints the last n lines of its input. By default, n is 10. <b> The tail command copies the named file to the standard output beginning at a designated place. If no file is named, the standard input is used.</b>
@@ -45,4 +42,4 @@ File that implements a function which prints the longest lines of its input. By 
 $ ./longlines <N> <file1> <file2>
 ```
 ## Requirements:
-These commands are designed to work in a UNIX (GCC Compiler needed). <b>B) Any Linux distribution</b>
+These commands are designed to work in a UNIX (GCC Compiler needed). <b>Max OSX or Any Linux distribution</b>
