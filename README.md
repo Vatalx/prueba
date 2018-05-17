@@ -91,7 +91,7 @@ The rest of files <i>libparsher_64.a</i> are used to provide our shell the readi
   Nota: no se debe hacer un programa separado para cada objetivo, sino un único programa genérico que cumpla con
   todos los objetivos simultáneamente.
   
-## Requisitos// Requirements 
+## Requisitos // Requirements 
 <b>[ESP]</b>Estos comandos están diseñados para ejecutarse en un sistema operativo UNIX (Con compilador GCC). <b> Cualquier distribucion de Mac OSX o Linux </b> 
 
 <b>[EN]</b>These commands are designed to work in a UNIX (GCC Compiler needed). <b>Max OSX or Any Linux distribution</b>
